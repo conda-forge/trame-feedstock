@@ -11,7 +11,7 @@ source:
   sha256: 3ac22be1961945e7240f396ad415c73446c45f5a4af1cb4afb80ffa1a7d6a24e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,19 +21,19 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - trame-client >=2.1.0
-    - trame-components
-    - trame-deckgl
-    - trame-markdown
-    - trame-matplotlib
-    - trame-plotly
-    - trame-rca
-    - trame-router
-    - trame-server >=2.1.0
-    - trame-simput
-    - trame-vega
-    - trame-vtk
-    - trame-vuetify
+    - trame-server >=2.11.0
+    - trame-client >=2.7.7
+    - trame-components <3.0.0
+    - trame-deckgl <3.0.0
+    - trame-markdown <3.0.0
+    - trame-matplotlib <3.0.0
+    - trame-plotly <3.0.0
+    - trame-rca <3.0.0
+    - trame-router <3.0.0
+    - trame-simput <3.0.0
+    - trame-vega <3.0.0
+    - trame-vtk <3.0.0
+    - trame-vuetify <3.0.0
 
 test:
   imports:
