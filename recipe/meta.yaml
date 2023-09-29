@@ -1,5 +1,5 @@
 {% set name = "trame" %}
-{% set version = "3.2.6" %}
+{% set version = "3.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-{{ version }}.tar.gz
-  sha256: f71c938676b423620cc9036f7df86c1efa2cc2d5e3cf3696fc9b3a1ebba26161
+  sha256: d222b80f28df620a5a7bd22961601a5900fb490b71d4c0adf71472f836b6e8cb
 
 build:
   number: 0
