@@ -22,8 +22,8 @@ requirements:
     - setuptools
   run:
     - python >=3.8
-    - trame-server >=3.2.3,<4
-    - trame-client >=3.4,<4
+    - trame-server >=3.2.3
+    - trame-client >=3.4
 
 test:
   imports:
