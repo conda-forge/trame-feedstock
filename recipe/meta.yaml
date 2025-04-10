@@ -24,6 +24,7 @@ requirements:
     - python >={{ python_min }}
     - trame-server >=3.2.3
     - trame-client >=3.4
+    - pyyaml
 
 test:
   imports:
