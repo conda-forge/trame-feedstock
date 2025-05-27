@@ -11,7 +11,7 @@ source:
   sha256: f5e1c6afcb793e3e2965ef36b3dac66bf6b92799b5a2e97cd400f9d84ab795ef
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,8 +22,9 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - trame-server >=3.2.3
-    - trame-client >=3.4
+    - trame-server >=3.4
+    - trame-client >=3.9
+    - trame-common >=0.2,<1
     - pyyaml
 
 test:
