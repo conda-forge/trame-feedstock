@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - trame-server >=3.4
     - trame-client >=3.9
-    - trame-common >=0.2,<1
+    - trame-common >=0.2
     - pyyaml
 
 test:
