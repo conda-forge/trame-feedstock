@@ -1,5 +1,5 @@
 {% set name = "trame" %}
-{% set version = "3.13.0" %}
+{% set version = "3.13.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame-{{ version }}.tar.gz
-  sha256: 477cd1457c1e5952d79484d1f7038498300792e51f2b17cae52dfdfa56ac9627
+  sha256: 0e0638314042e1b993d7feb58e7012687faad8ae28f57855a0fecf238a568970
 
 build:
   number: 0
@@ -22,9 +22,9 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - trame-server >=3.4
-    - trame-client >=3.10.1
-    - trame-common >=1
+    - trame-server >=3.12.1
+    - trame-client >=3.12.2
+    - trame-common >=1.2.3
     - pyyaml
 
 test:
